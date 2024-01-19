@@ -11,7 +11,7 @@ class View
   end
 
   def ask_for_index
-    puts "What' the number?"
+    puts "What's the number?"
     gets.chomp.to_i - 1
   end
 end
