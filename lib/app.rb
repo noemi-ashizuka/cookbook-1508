@@ -4,8 +4,9 @@ require_relative 'router'
 
 csv_file   = File.join(__dir__, 'recipes.csv')
 cookbook   = Cookbook.new(csv_file)
+# p cookbook
 controller = Controller.new(cookbook)
-
+# p controller
 router = Router.new(controller)
 
 # Start the app

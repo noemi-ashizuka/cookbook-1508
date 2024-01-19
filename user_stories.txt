@@ -1,0 +1,3 @@
+- list the recipes
+- add a recipes
+- remove a recipe
